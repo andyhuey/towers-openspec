@@ -48,6 +48,6 @@
 
 ## 7. Cross-Platform Verification
 
-- [ ] 7.1 Manually play a full game to completion on Linux, confirming rendering and all controls behave per spec
+- [x] 7.1 Manually play a full game to completion on Linux, confirming rendering and all controls behave per spec
 - [ ] 7.2 Manually play a full game to completion on Windows, confirming rendering and all controls behave per spec
-- [ ] 7.3 Manually verify Esc-to-quit and an illegal-drop-then-retry sequence on at least one platform
+- [x] 7.3 Manually verify Esc-to-quit and an illegal-drop-then-retry sequence on at least one platform

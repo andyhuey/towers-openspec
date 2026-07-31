@@ -28,23 +28,23 @@
 
 ## 4. Console: Start Screen
 
-- [ ] 4.1 Implement rendering of the canonical Tower of Hanoi rules summary and this app's controls summary
-- [ ] 4.2 Implement the disk-count numeric input with default 4 and clamping to [3, 9] per game-setup spec
-- [ ] 4.3 Wire start-screen confirmation to initialize a new `Game` and transition to the gameplay screen
+- [x] 4.1 Implement rendering of the canonical Tower of Hanoi rules summary and this app's controls summary
+- [x] 4.2 Implement the disk-count numeric input with default 4 and clamping to [3, 9] per game-setup spec
+- [x] 4.3 Wire start-screen confirmation to initialize a new `Game` and transition to the gameplay screen
 
 ## 5. Console: Gameplay Screen
 
-- [ ] 5.1 Implement full-frame rendering of the three towers, their disks, the cursor/selection, a lifted/hovering disk, and a status-message line
-- [ ] 5.2 Implement the Browsing input state: left/right moves the tower cursor
-- [ ] 5.3 Implement pick-up: space lifts the selected tower's top disk (no-op if tower is empty), entering the Lifted state
-- [ ] 5.4 Implement hover movement: left/right while Lifted moves the hover position between towers with no legality check
-- [ ] 5.5 Implement drop attempt: space while Lifted calls `Game.TryMove`; on success return to Browsing; on failure keep Lifted state at the same hover tower and show the rejection status message
-- [ ] 5.6 Implement Esc handling to end the game immediately as quit-early, from any gameplay state
-- [ ] 5.7 Implement automatic transition to the end screen when `Game` reports a win
+- [x] 5.1 Implement full-frame rendering of the three towers, their disks, the cursor/selection, a lifted/hovering disk, and a status-message line
+- [x] 5.2 Implement the Browsing input state: left/right moves the tower cursor
+- [x] 5.3 Implement pick-up: space lifts the selected tower's top disk (no-op if tower is empty), entering the Lifted state
+- [x] 5.4 Implement hover movement: left/right while Lifted moves the hover position between towers with no legality check
+- [x] 5.5 Implement drop attempt: space while Lifted calls `Game.TryMove`; on success return to Browsing; on failure keep Lifted state at the same hover tower and show the rejection status message
+- [x] 5.6 Implement Esc handling to end the game immediately as quit-early, from any gameplay state
+- [x] 5.7 Implement automatic transition to the end screen when `Game` reports a win
 
 ## 6. Console: End Screen
 
-- [ ] 6.1 Implement end-screen rendering showing player move count, optimal move count, total elapsed time, and completed/quit-early status per game-results spec
+- [x] 6.1 Implement end-screen rendering showing player move count, optimal move count, total elapsed time, and completed/quit-early status per game-results spec
 
 ## 7. Cross-Platform Verification
 

@@ -1,8 +1,8 @@
 ## 1. Solution & Project Setup
 
-- [ ] 1.1 Create the .NET 8 solution file and the three projects: `TowersOfHanoi.Console` (exe), `TowersOfHanoi.Core` (classlib), `TowersOfHanoi.Core.Tests` (xUnit test project)
-- [ ] 1.2 Add project references: Console → Core, Core.Tests → Core
-- [ ] 1.3 Verify `dotnet build` succeeds on the empty solution
+- [x] 1.1 Create the .NET 8 solution file and the three projects: `TowersOfHanoi.Console` (exe), `TowersOfHanoi.Core` (classlib), `TowersOfHanoi.Core.Tests` (xUnit test project)
+- [x] 1.2 Add project references: Console → Core, Core.Tests → Core
+- [x] 1.3 Verify `dotnet build` succeeds on the empty solution
 
 ## 2. Core Domain Model
 

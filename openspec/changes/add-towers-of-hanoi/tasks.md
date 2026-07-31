@@ -44,7 +44,7 @@
 
 ## 6. Console: End Screen
 
-- [x] 6.1 Implement end-screen rendering showing player move count, optimal move count, total elapsed time, and completed/quit-early status per game-results spec
+- [x] 6.1 Implement end-screen rendering showing number of disks, player move count, optimal move count, total elapsed time, and completed/quit-early status per game-results spec
 
 ## 7. Cross-Platform Verification
 

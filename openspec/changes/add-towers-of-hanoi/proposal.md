@@ -8,7 +8,7 @@ We want a simple, playable Towers of Hanoi game with a text-mode UI, built as a 
 - Start screen: canonical Tower of Hanoi rules summary, this app's controls summary, and a numeric disk-count input (default 4, clamped to [3, 9]).
 - Gameplay screen: renders three towers and disks in text; cursor navigation between towers; pick-up/hover/drop disk-moving interaction (space to lift the top disk, arrows to hover a target tower, space to attempt a drop); illegal drops are rejected with a status message and keep the disk lifted for retry; same-tower drops are a legal no-op that doesn't count as a move; Esc quits at any time.
 - Win detection: game ends when all disks are stacked on the rightmost tower in ascending size order.
-- End screen: player's move count, optimal move count (2^n - 1) for comparison, total elapsed time, and completed-vs-quit-early status. ("Number of disks moved" from the original requirements draft is dropped as redundant with the move count.)
+- End screen: number of disks used, player's move count, optimal move count (2^n - 1) for comparison, total elapsed time, and completed-vs-quit-early status. ("Number of disks moved" from the original requirements draft is dropped as redundant with the move count.)
 
 ## Capabilities
 

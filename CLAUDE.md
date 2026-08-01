@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A text-mode Towers of Hanoi game: C#/.NET 8, cross-platform (Windows and Linux), console UI. Original requirements are in `requirements.md`. The project was built through OpenSpec (see `openspec/` below); `openspec/specs/` is the current source of truth for expected behavior.
+A text-mode Towers of Hanoi game: C#/.NET 10, cross-platform (Windows and Linux), console UI. Original requirements are in `requirements.md`. The project was built through OpenSpec (see `openspec/` below); `openspec/specs/` is the current source of truth for expected behavior.
 
 ## Commands
 
